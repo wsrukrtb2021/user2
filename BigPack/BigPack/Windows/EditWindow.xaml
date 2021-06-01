@@ -1,0 +1,29 @@
+﻿<Window x:Class="BigPack.Windows.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BigPack.Windows"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="title1" HorizontalAlignment="Left" Height="21" Margin="10,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_title" Content="Наименование" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="type" HorizontalAlignment="Left" Height="21" Margin="233,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_type" Content="Тип материала" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="stock" HorizontalAlignment="Left" Height="21" Margin="10,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_stock" Content="Количество на складе" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="un" HorizontalAlignment="Left" Height="21" Margin="232,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_un" Content="Единица измерения" HorizontalAlignment="Left" Margin="232,67,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="pack" HorizontalAlignment="Left" Height="21" Margin="10,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_pack" Content="Количество в упаковке" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="min" HorizontalAlignment="Left" Height="21" Margin="232,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_min" Content="Минимальное количество" HorizontalAlignment="Left" Margin="232,123,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Discr" HorizontalAlignment="Left" Height="21" Margin="10,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="l_discr" Content="Описание" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="81" Margin="468,36,0,0" VerticalAlignment="Top" Width="130" Source="picture.png"/>
+        <Button x:Name="Cancel" Content="Отмена" HorizontalAlignment="Left" Height="35" Margin="694,374,0,0" VerticalAlignment="Top" Width="88"/>
+        <Button x:Name="Ok" Content="Сохранить" HorizontalAlignment="Left" Height="35" Margin="601,374,0,0" VerticalAlignment="Top" Width="88"/>
+
+    </Grid>
+</Window>
